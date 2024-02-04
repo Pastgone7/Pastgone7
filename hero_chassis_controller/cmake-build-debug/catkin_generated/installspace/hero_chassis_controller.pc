@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: hero_chassis_controller
+Description: Description of hero_chassis_controller
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lhero_chassis_controller_core
+Requires: roscpp sensor_msgs
